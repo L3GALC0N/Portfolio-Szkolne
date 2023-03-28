@@ -1,0 +1,4 @@
+1. select kierunek, czas from przyloty where status_lotu like ''
+2. select o.kierunek, o.dzien from odloty o, samoloty s WHERE o.samoloty_id=s.id AND s.typ like 'Boening 787'
+3. select nr_rejsu, kierunek from przyloty where nr_rejsu like '%LX%'
+4. UPDATE `samoloty` SET `linie` = 'SWISS' WHERE `samoloty`.`linie` = 'SWISS2';

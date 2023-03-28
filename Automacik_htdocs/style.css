@@ -1,0 +1,37 @@
+body {background-image: url("kawa_bg.jpg");}
+
+header {width: 100%; height: 20%; background-color: #DB8020; color: white; text-align: center; border-radius: 10px; clear: both;}
+
+footer {width: 100%; background-color: #DB8020; color: white; text-align: center; border-radius: 10px; clear:both;}
+
+img {width: 20%; height: auto;}
+
+#lewy {border: solid black 3px; float: left; width: 48%; height: 600px; background-color: #FD9F5F; border-radius: 10px; display: flex; justify-content: center; align-items: center;}
+
+#lewy_1 {border: solid black 2px; border-radius: 6px; display: flex; justify-content: center; align-items: center; flex-direction: column; margin: 5px; padding: 3px; width: 70%;}
+
+#prawy_g {border: solid black 3px; float: right; width: 48%; height: 380px; background-color: #FD9F5F; border-radius: 10px; display: flex; justify-content: center;}
+
+#prawy_d {border: solid black 3px; clear: both; width: 48% height: 220px; background-color: #FD9F5F; border-radius: 25px;}
+
+form {display: flex; justify-content: center; align-items: center; flex-direction: column; background-color: #FFB989; color: white; padding: 10px; border-radius: 10px; margin: 10px; width: 50%; font-weight: bold; font-family: Copperplate Gothic;}
+
+#Guzik, #prawy_g2 > button {border: solid black 5px; border-radius: 10px; background-color: #DB8020; font-weight: bold; font-style: Copperplate Gothic;}
+
+ul {margin-right: 25px;}
+
+table, tr, td {border: solid white 5px; border-radius: 10px; text-align: center; font-family: Copperplate Gothic; font-weight: bolder; margin: 5px;}
+
+table{width: 50%; background-color: #FFB989;}
+
+td{background-color: black; color: white;}
+
+#prawy_g1 {width: 20%; float: left;}
+
+#prawy_g2 {width: 20%; float: right; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center;}
+
+#Fundusze {width: 50%;}
+
+input {border: solid black 2px; border-radius: 6px; text-align: center;}
+
+

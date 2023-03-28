@@ -1,0 +1,15 @@
+* {font-family: Helvetica;}
+
+#banner , footer {background-color: RGB(70,130,180); color: white; height: 30px; text-align: center;}
+
+#glowny {background-color: RGB(176,192,222); padding: 50px; text-align: center;}
+
+#lewy {background-color: RGB(70,130,180); color: white; height: 300px; width: 80%; float: left;}
+
+#prawy {background-color: RGB(70,130,180); color: white; height: 300px; width: 20%; float: right;}
+
+#glowny img {padding: 3px; border: blue 1px dotted; border-radius: 10px;}
+
+#lewy img {height: 40%;}
+
+#lewy img:hover {height: 40%; border: white 1px solid; }

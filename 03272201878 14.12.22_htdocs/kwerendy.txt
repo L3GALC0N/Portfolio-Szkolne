@@ -1,0 +1,13 @@
+SELECT prz.kierunek , prz.czas FROM przyloty prz WHERE prz.status_lotu = '';
+
+
+
+SELECT od.kierunek , od.dzien FROM odloty od , samoloty sa WHERE sa.typ = 'Boening 787' AND sa.id = od.samoloty_id;
+
+
+
+SELECT prz.nr_rejsu , prz.kierunek FROM przyloty prz WHERE prz.nr_rejsu LIKE '%LX%';
+
+
+
+UPDATE samoloty sa SET sa.linie = 'SWISS2' WHERE sa.linie = 'SWISS'; 

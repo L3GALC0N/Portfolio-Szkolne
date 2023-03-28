@@ -1,0 +1,90 @@
+*{
+    font-family: Georgia;
+}
+
+#menu{
+    background-color: RGB(17,234,176);
+    height: 120px;
+    width: 60%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    background-color: #fe56f9;
+    color: white;
+    text-align: center;
+    height: 120px;
+    width: 40%;
+    float: right;
+}
+
+#lewy{
+    background-color: #5e3a2f;
+    color: white;
+    height: 700px;
+    width: 60%;
+    float: left;
+}
+
+#prawy{
+    background-color: rgb(12,189,220);
+    height: 700px;
+    width: 40%;
+    float: right;
+}
+
+#prawy img{
+    float: left;
+}
+
+#footer{
+    background-color: #4D1900;
+    color: white;
+    text-align: right;
+}
+
+#menu a{
+    background-color: green;
+    color: yellow;
+    padding: 10px 5px 10px 5px;
+}
+
+#menu a:hover{
+    background-color: Sienna;
+    color: #65fb89;
+}
+
+h2{
+    color: white;
+}
+
+h1{
+    padding: 15px;
+}
+
+img{
+    float: right;
+}
+
+table,td{
+    border: 2px dashed #efad2d;
+    font-weight:bold;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+a{
+    margin: 20px;
+}
+
+li{
+    list-style: circle;
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+}

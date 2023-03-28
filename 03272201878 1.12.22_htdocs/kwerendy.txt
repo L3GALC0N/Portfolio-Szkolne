@@ -1,0 +1,7 @@
+INSERT INTO klienci VALUES('','Adamowski','Krzysztof','PZN67812'); 
+
+SELECT sa.Marka , sa.Model , sa.rok_produkcji , wy.Data_wypozycz FROM samochody sa , wypozyczenia wy WHERE sa.ID_samochodu=wy.ID_samochodu AND sa.rok_produkcji='2000';
+
+SELECT sa.Marka , COUNT(sa.Marka) AS 'ilosc' FROM samochody sa GROUP BY sa.Marka;
+
+ALTER TABLE wypozyczenia ADD Data_zwrotu DATE;

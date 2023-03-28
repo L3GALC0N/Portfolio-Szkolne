@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="styl7.css"/>
+</head>
+<body>
+
+    <div id="banner">
+        <h2>Galeria Miejsc Ciekawych</h2>
+    </div>
+
+
+    <div id="glowny">
+        <img src="lanzarotte.jpg" alt="galeria"/>
+    </div>
+
+
+    <div id="lewy">
+        <h3>Przeglądaj zdjęcia </h3>
+
+        <img id="a1" src="lanzarotte.jpg" alt="lanzarotte" onClick="podmianka('lanzarotte.jpg')"/>
+        <img id="a2" src="pekin.jpg" alt="pekin" onClick="podmianka('pekin.jpg')"/>
+        <img id="a3" src="serengeti.jpg" alt="serengeti" onClick="podmianka('serengeti.jpg')"/>
+        <img id="a4" src="wenecja.jpg" alt="wenecja" onClick="podmianka('wenecja.jpg')"/>
+        <img id="a5" src="tajlandia.jpg" alt="tajlandia" onClick="podmianka('tajlandia.jpg')"/>
+
+    </div>
+
+
+    <div id="prawy">
+        <h3>Obrazy w naszej galerii</h3>
+
+        <table>
+            <tr>
+                <td>Europa</td>
+                <td>Azja</td>
+                <td>Afryka</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </table>
+
+        <p id="polubienie">Polub nas <img src="icon-off.png" onClick="podmianka2('icon-on.png')"/></p>
+
+        <a href="https://pixabay.com" target="_blank">Odkryj więcej zdjęć</a>
+    </div>
+
+
+    <footer>
+        <p>Autor: 03272201878</p>
+    </footer>
+    
+
+
+    <script>
+        function podmianka(x)
+            {
+                document.getElementById('glowny').innerHTML='<img src="'+x+'" alt="galeria"/>'    
+            }
+    </script>
+
+    <script>
+        function podmianka2(x)
+            {
+                document.getElementById('polubienie').innerHTML='Polub nas <img src="'+x+'" onClick="podmianka2("icon-on.png")"/>';   
+            }
+    </script>
+
+</body>
+
+
+</html>
